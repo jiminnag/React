@@ -8,7 +8,6 @@ const initItems = [
         title: '[냉장]떠먹는 불가리스 복숭아01',
         price: '1000원',
         act: true,
-
     },
     {
         id: 2,
@@ -17,7 +16,6 @@ const initItems = [
         title: '[냉장]떠먹는 불가리스 복숭아02',
         price: '2000원',
         act: true,
-
     },
     {
         id: 3,
@@ -269,29 +267,19 @@ const initItems = [
         price: '3,600원',
         delivery7: true
     }
-   
-
-
-
-
-
-
-
-
-
-]
+];
 
 function itemReducer(state, action) {
     switch (action.type) {
 
     }
-}
+};
 
 
 const ItemStateContext = createContext();
 
 export function ItemProvider({ children }) {
-    const [state, dispatch] = useReducer(itemReducer, initItems);
+    const [state] = useReducer(itemReducer, initItems);
 
     return (
         <ItemStateContext.Provider value={state}>
@@ -299,7 +287,7 @@ export function ItemProvider({ children }) {
         </ItemStateContext.Provider>
     )
 
-}
+};
 
 export function useItemState() {
     const context = useContext(ItemStateContext);
@@ -307,4 +295,4 @@ export function useItemState() {
         throw new Error('temStateContext를 찾을 수 없음')
     }
     return context;
-}
+};

@@ -102,13 +102,13 @@ function Delivery() {
                 </ul>
             </div>
             <div className="subimg">
-                <img src="https://shoppingcdn.namyangi.com/attach/site/2021/202111/1d77283d-eb9d-4db0-8609-cbfc6365efab.jpg?03bba6c"></img>
+                <img src="https://shoppingcdn.namyangi.com/attach/site/2021/202111/1d77283d-eb9d-4db0-8609-cbfc6365efab.jpg?03bba6c" alt="#"></img>
             </div>
             <div className={styles.contents} id='delivery_tab' >
                 <div className={styles.contents_in}>
                     <div className={styles.delivety_wrap}>
-                        <img src="https://shoppingcdn.namyangi.com/attach/site/2023/202302/453196af-77e1-4937-b825-ae7399e1300e.jpg?03bba6c"></img>
-                        <img src="https://shoppingcdn.namyangi.com/attach/site/2021/202103/c98937de-e26c-4494-ad4b-bf32337df803.png?03bba6c" style={{float: 'right'}} />
+                        <img src="https://shoppingcdn.namyangi.com/attach/site/2023/202302/453196af-77e1-4937-b825-ae7399e1300e.jpg?03bba6c" alt="#"></img>
+                        <img src="https://shoppingcdn.namyangi.com/attach/site/2021/202103/c98937de-e26c-4494-ad4b-bf32337df803.png?03bba6c" style={{float: 'right'}} alt="#"/>
                     </div>
                 </div>
                 <Tabs
