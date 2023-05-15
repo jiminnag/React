@@ -1,10 +1,8 @@
 import React from "react";
 import styles from './member.module.css';
-import { useItemState } from "../context";
 
 
 function Member() {
-    const items = useItemState()
     return (
         <div>
             <div className="subpath">

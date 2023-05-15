@@ -41,7 +41,7 @@ function Product() {
                 <div className="contents_in">
                     <div className={styles.list_h}>
                         <ul>
-                            <li>인기상품순</li>y
+                            <li>인기상품순</li>
                             <li>신상품순</li>
                             <li>낮은가격순</li>
                             <li>높은가격순</li>
