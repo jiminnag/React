@@ -1,0 +1,129 @@
+.contents{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.contents_in{
+    margin: 60px auto;
+    width: 1120px;
+}
+.poptitle{
+    margin-bottom: 50px;
+}
+.poptitle h3{
+    display: inline;
+    margin-bottom: 28px;
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.poptitle_r{
+    float: right;
+    margin-top: 14px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.pop_b,
+.pop_b2{
+    float: left;
+    width: 550px;
+}
+.pop_item2{
+    margin-top: 50px;
+}
+.pop_item,
+.pop_item2{
+    display: block;
+    text-align: left;
+}
+
+.pop_item img,
+.pop_item2 img{
+    display: block;
+    overflow: hidden;
+    width: 550px;
+    height: 187px;
+}
+.pop_item h4,
+.pop_item2 h4{
+    display: block;
+    margin-top: 24px;
+    font-size: 18px;
+    color: #000;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.pop_item span,
+.pop_item2 span{
+    display: block;
+    margin-top: 9px;
+    font-size: 16px;
+    color: #7e7e7e;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+}
+.pop_item3{
+    margin-top: 50px;
+}
+.pop_item1,
+.pop_item3{
+    float: right;
+    display: block;
+    text-align: left;
+}
+
+.pop_item1 img
+,.pop_item3 img{
+    display: block;
+    overflow: hidden;
+    width: 550px;
+    height: 187px;
+}
+.pop_item1 h4
+,.pop_item3 h4{
+    display: block;
+    margin-top: 24px;
+    font-size: 18px;
+    color: #000;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.pop_item1 span,
+.pop_item3 span{
+    display: block;
+    margin-top: 9px;
+    font-size: 16px;
+    color: #7e7e7e;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+}
+.pop_in{
+    margin: 0px auto;
+    width: 1120px;
+}
+
+.pop_none{
+    height: 500px;
+    padding-top: 200px;
+    text-align: center;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+.pop_text{
+    padding-top: 84px;
+    color: #7e7e7e;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+
+}

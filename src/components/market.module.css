@@ -1,0 +1,82 @@
+.market_text {
+  height: 350px;
+  margin: 0 auto;
+  padding: 100px 0 150px;
+  width: 1120px;
+}
+
+.market_text h3 {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  display: inline;
+  margin-bottom: 0;
+  vertical-align: 0;
+  margin-left: 10px;
+}
+
+.red {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  color: red;
+}
+
+.market_text .red2 {
+  color: red;
+}
+
+.market_text p {
+  float: right;
+  margin-right: 10px;
+  color: #000;
+  font-size: 15px;
+}
+
+.market_code {
+  margin: 10px;
+  border-bottom: 1px solid #ccc;
+  border-top: 2px solid #000;
+  height: 70px;
+  line-height: 70px;
+}
+
+.market_code .codered {
+  float: left;
+  margin-left: 20px;
+  color: red;
+}
+
+.market_code p {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.market_code .code {
+  float: left;
+}
+
+.market_code input {
+  color: #e3e3e3;
+  font-size: 12px;
+  height: 36px;
+  margin-left: 40px;
+  width: 430px;
+}
+
+.market_btn {
+  text-align: center;
+  width: 100%;
+}
+
+.market_btn button {
+  background-color: #e30000;
+  border: 0;
+  color: #fff;
+  height: 60px;
+  margin: 50px auto 0;
+  width: 190px;
+  cursor: pointer;
+}
