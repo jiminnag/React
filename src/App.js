@@ -38,22 +38,26 @@ function App() {
           <div className='header_in'>
             <div className='logo'>
               {/* <Link to="/"><img src={LogoImg} alt="" /></Link> */}
-              <Link to="/"><img src={require('./images/logo.png')} alt="" /></Link>
+              <Link to="/"><img src="https://shopping.namyangi.com/resources/images/common/logo.png" alt="" /></Link>
             </div>
             <div className='nav'>
-            <div className='nav_in'>
-              <span>로그인</span>
-              <span>회원가입</span>
-              <span>남양</span>
-            </div>
+              <div className='nav_in'>
+                <span>로그인</span>
+                <span>회원가입</span>
+                <span>남양</span>
+              </div>
               <ul>
-              <li><Link to="/components/member" style={{ textDecoration: 'none', color: 'black' }}>프리미엄멤버쉽</Link></li>
-                <li><Link to="/components/product" style={{ textDecoration: 'none' , color: 'black' }}>냉장제품</Link></li>
-                <li><Link to="/components/market" style={{ textDecoration: 'none', color: 'black'  }}>시크릿마켓</Link></li>
-                <li><Link to="/components/brand" style={{ textDecoration: 'none', color: 'black'  }}>브랜드관</Link></li>
-                <li><Link to="/components/pop" style={{ textDecoration: 'none' , color: 'black' }}>기획전</Link></li>
-                <li><Link to="/components/event" style={{ textDecoration: 'none' , color: 'black' }}>이벤트</Link></li>
-                <li><Link to="/components/delivery" style={{ textDecoration: 'none' , color: 'black' }}>가정배달</Link></li>
+                <li><Link to="/components/member" style={{ textDecoration: 'none', color: 'black' }}>프리미엄멤버쉽</Link></li>
+                <li><Link to="/components/product" style={{ textDecoration: 'none', color: 'black' }}>냉장제품</Link></li>
+                <li><Link to="/components/market" style={{ textDecoration: 'none', color: 'black' }}>시크릿마켓</Link></li>
+                <li><Link to="/components/brand" style={{ textDecoration: 'none', color: 'black' }}>브랜드관</Link></li>
+                <li><Link to="/components/pop" style={{ textDecoration: 'none', color: 'black' }}>기획전</Link></li>
+                <li><Link to="/components/event" style={{ textDecoration: 'none', color: 'black' }}>이벤트</Link></li>
+                <li><Link to="/components/delivery" style={{ textDecoration: 'none', color: 'black' }}>가정배달</Link></li>
+                <img width="24" height="24" src="https://img.icons8.com/android/24/search.png" alt="search" />
+                <img width="34" height="34" src="https://img.icons8.com/ios/50/shopping-bag--v1.png" alt="shopping-bag--v1" />
+                <img width="30" height="30" src="https://img.icons8.com/fluency-systems-regular/48/clock--v1.png" alt="clock--v1" />
+                <img width="38" height="38" src="https://img.icons8.com/pastel-glyph/64/person-male--v1.png" alt="person-male--v1" />
               </ul>
             </div>
           </div>

@@ -92,28 +92,27 @@ function Event() {
             <div className="subimg">
                 <Carousel>
                     <Carousel.Item>
-                        <div style={{ width: '100%', height: '380px'}}>
-                          <img src="https://shoppingcdn.namyangi.com/attach/site/2022/202204/9816f39e-918f-436d-a9f3-ec7cc092c7e5.png"alt="#"></img>
+                        <div style={{ width: '100%', height: '380px' }}>
+                            <img src="https://shoppingcdn.namyangi.com/attach/site/2022/202204/9816f39e-918f-436d-a9f3-ec7cc092c7e5.png" alt="#"></img>
                         </div>
                         <Carousel.Caption>
-                           
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                    <div style={{ width: '100%', height: '380px'}}>
-                           <img src="https://shoppingcdn.namyangi.com/attach/site/2020/202011/bf81c446-5d7d-483f-af35-35060e037325.png" alt="#"></img>
+                        <div style={{ width: '100%', height: '380px' }}>
+                            <img src="https://shoppingcdn.namyangi.com/attach/site/2020/202011/bf81c446-5d7d-483f-af35-35060e037325.png" alt="#"></img>
                         </div>
                         <Carousel.Caption>
-                           
+
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                    <div style={{ width: '100%', height: '380px'}}>
-                        <img src="https://shoppingcdn.namyangi.com/attach/site/2020/202011/a0262bb6-6047-47ad-a608-1b8bb5604490.png" alt="#"></img>
+                        <div style={{ width: '100%', height: '380px' }}>
+                            <img src="https://shoppingcdn.namyangi.com/attach/site/2020/202011/a0262bb6-6047-47ad-a608-1b8bb5604490.png" alt="#"></img>
                         </div>
 
                         <Carousel.Caption>
-                           
+
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -134,10 +133,9 @@ function Event() {
                             </div>
                         </div>
                     </div>
-
                     <div className={styles.event_tabmn} id='event_tabmn'>
                         <Tabs
-                            defaultActiveKey="profile"
+                            defaultActiveKey="event1"
                             id="uncontrolled-tab-example"
                             className="mb-3"
                         >
@@ -181,7 +179,6 @@ function Event() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }

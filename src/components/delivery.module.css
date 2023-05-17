@@ -1,17 +1,17 @@
-.contents{
-    width: 1120px;
-    height: 1000px;
-    margin: 0 auto;
-}
-
-
-.contents_in{
+.contents {
     width: 1120px;
     height: auto;
     margin: 0 auto;
 }
 
-.delivety_wrap{
+
+.contents_in {
+    width: 1120px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.delivety_wrap {
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -23,7 +23,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-  
+
 .items>div {
     margin-top: 20px;
     padding: 5px 0 10px;
@@ -31,23 +31,23 @@
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-  
+
 .deliverybox {
     width: 274px;
     height: 410px;
     border: 1px solid #ccc;
 }
-.deliverybox img{
+
+.deliverybox img {
     padding: 50px;
     width: 100%;
 }
-  
+
 .tte h3 {
     margin-top: 50px;
 }
-  
-.DeliveryItem1
-{
+
+.DeliveryItem1 {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -56,7 +56,7 @@
     margin-bottom: 100px;
     width: 100%;
 }
-  
+
 .DeliveryItem1 h4 {
     display: block;
     height: 48px;
@@ -66,7 +66,7 @@
     letter-spacing: -0.5px;
     padding: 11px 20px;
 }
-  
+
 .DeliveryItem1 p {
     float: right;
     vertical-align: top;
@@ -76,9 +76,8 @@
     font-weight: 600;
     padding: 0 10px 0 0px;
 }
-  
-.DeliveryItem5
-{
+
+.DeliveryItem5 {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -88,7 +87,7 @@
     width: 100%;
 }
 
-.DeliveryItem5 h4{
+.DeliveryItem5 h4 {
     display: block;
     height: 48px;
     font-size: 17px;
@@ -98,7 +97,7 @@
     padding: 11px 20px;
 }
 
-.DeliveryItem5 p {   
+.DeliveryItem5 p {
     float: right;
     vertical-align: top;
     font-size: 24px;
@@ -108,4 +107,3 @@
     padding: 0 10px 0 0px;
 
 }
-

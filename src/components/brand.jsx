@@ -97,11 +97,6 @@ function Brand() {
                                 </div>
                             </div>
                         </Tab>
-                        {/* <Tab eventKey="contact" title="Contact" disabled>
-                            <div>
-                                <h3>tab03</h3>
-                            </div>
-                        </Tab> */}
                     </Tabs>
                 </div>
             </div>
