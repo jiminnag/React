@@ -1,0 +1,137 @@
+.itembox {
+    display: table;
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+}
+
+
+.contents {
+    width: 100%;
+    height: 1320px;
+}
+
+.title {
+    margin: 10px 0 0;
+}
+
+.t {
+    margin: 0px auto;
+    padding: 15px 0;
+    font-size: 12px;
+    text-align: center;
+    border: 3px double #f1f1f1;
+    width: 300px;
+    letter-spacing: 5px;
+    color: #333;
+}
+
+.contents_in {
+    margin: 0 auto;
+    width: 1200px;
+    height: 1200px;
+}
+
+.menu {
+    margin: 10px 10px 10px;
+}
+
+.type {
+    float: right;
+    padding: 0px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #999;
+    letter-spacing: 1px;
+}
+
+.type li {
+    display: inline;
+    padding: 0 0 0 20px;
+}
+
+.type a {
+    text-decoration: none;
+    color: #999;
+}
+
+.type a:hover {
+    color: #dc664b;
+}
+
+.total {
+    padding: 3px 9px 0 0;
+    font-size: 9px;
+    font-weight: 500;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.total strong {
+    font-size: 9px;
+    color: #dc664b;
+    padding: 0 5px;
+}
+
+.list_b {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.list_b>div {
+    margin-top: 20px;
+    padding: 5px 0 10px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.itembox h1 {
+    margin: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #005c87;
+    font-weight: bold;
+}
+
+.list_b>div>div {
+    padding: 5px;
+}
+
+.list_b>div span {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: tomato;
+    font-size: 12px;
+    color: #fff;
+}
+
+.list_b>div>img {
+    margin: 0 2px 5px 0;
+}
+
+.list_b>div>h4 {
+    position: relative;
+    padding: 11px 2px;
+    margin: 10px 0 8px;
+    text-align: center;
+    border-top: 1px solid #dbdad8;
+    border-bottom: 1px solid #dbdad8;
+    font-size: 12px;
+    color: #858585;
+}
+
+.list_b>div>p {
+    margin: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #005c87;
+    font-weight: bold;
+}

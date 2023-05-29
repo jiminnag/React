@@ -1,0 +1,251 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 1980px;
+}
+
+.snb {
+    float: left;
+    width: 1200px;
+    margin: 0 0px 0 0;
+    position: relative;
+    height: 100%;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.category {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    height: 49px;
+}
+
+.title {
+    margin: 0 auto;
+}
+
+.titlet {
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 0;
+}
+
+.record {
+    padding: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.record a {
+    display: block;
+    font: 600 10px open sans;
+}
+
+.record a img {
+    padding: 12px 9px
+}
+
+.contents {
+    float: left;
+    width: 1200px;
+    margin: 0 0 0 0px;
+    position: relative;
+    padding: 10px 0 0px 0;
+    background: #fff;
+}
+
+.romi {
+    width: 1200px;
+    height: 480px;
+    margin: 0px auto;
+    padding: 0 0 10px
+}
+
+.romitop {
+    width: 1200px;
+    height: 470px;
+    float: left;
+    padding: 0 0 20px;
+    position: relative;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    width: 100%;
+    height: 220px;
+}
+
+.banner {
+    float: left;
+    width: 400px;
+    height: 200px;
+    height: 0;
+    margin: 0;
+    margin-top: 10px;
+    border: 0;
+}
+
+.bannerb {
+    width: 400px;
+    margin: 0 0 10px;
+    height: 145px;
+    padding: 0;
+}
+
+.box2 {
+    float: right;
+    width: 420px;
+    height: 200px;
+    margin: 0;
+    margin-top: 10px;
+    border: 0;
+    padding: 0px;
+}
+
+.left {
+    width: 200px;
+    float: left;
+    text-align: left;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.right {
+    width: 200px;
+    float: right;
+    text-align: right;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.notice {
+    float: right;
+    height: 200x;
+    margin: 0;
+    margin-top: 10px;
+    border: 0;
+    padding: 0px;
+}
+
+.board {
+    float: left;
+    width: 288px;
+    height: 200px;
+    padding: 5px;
+    margin: 1px;
+    vertical-align: top;
+    background: #f7f7f7;
+    border: 1px solid #efeeed;
+}
+
+.notice_notice {
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.noticeli {
+    border: 0px;
+    padding: 8px 0;
+    height: 20px;
+    margin: 0px auto;
+}
+
+.recordb {
+    width: 280px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.recordr {
+    margin: 0px auto;
+    zoom: 1;
+    width: 270px;
+    height: 20px;
+    padding: 8px 0 0;
+    border-bottom: 1px dotted #e4e4e4;
+    vertical-align: top;
+    display: block;
+
+}
+
+.recorda {
+    letter-spacing: -1px;
+    display: block;
+    float: left;
+    width: 240px;
+    font: 11px 돋움;
+    color: #555;
+    text-decoration: none;
+}
+
+.records {
+    display: block;
+    float: right;
+    width: 30px;
+    font: 8px tahoma;
+    color: #d86e73;
+    text-align: right;
+}
+
+.list_b {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.list_b>div {
+    margin-top: 20px;
+    padding: 5px 0 10px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.list_b>div>div {
+    padding: 5px;
+}
+
+.list_b>div span {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: tomato;
+    font-size: 12px;
+    color: #fff;
+}
+
+.list_b>div>img {
+    margin: 0 2px 5px 0;
+}
+
+.list_b>div>h4 {
+    position: relative;
+    padding: 11px 2px;
+    margin: 10px 0 8px;
+    text-align: center;
+    border-top: 1px solid #dbdad8;
+    border-bottom: 1px solid #dbdad8;
+    font-size: 12px;
+    color: #858585;
+}
+
+.list_b>div>h1{
+    text-align: center;
+    font-size: 12px;
+}
+
+.list_b>div>p {
+    text-align: center;
+    font-size: 12px;
+    color: #005c87;
+    font-weight: bold;
+}

@@ -3,31 +3,18 @@ import './App.css';
 import { Route, Link } from 'react-router-dom';
 import { ItemProvider } from './context';
 
-
 import Main from './main';
 import Footer from './footer';
-//컴포넌트를 라우터객체로 지정해서 화면에 마운트 합니다
-//yarn add react-router-dom@5
-//설정:
-//특정 주소에 컴포넌트 연결하는 방법
-//<Route path="주소" component={보여줄 컴포넌트}></Route>
-//다른 주소로 이동시키기
-//import { Route, Link } from 'react-router-dom';
-//<Link to="주소">문자</Link>
-import Member from './components/member';
-import Product from './components/product';
-import Market from './components/market';
-import Brand from './components/brand';
-import Pop from './components/pop';
-import Event from './components/event';
-import Delivery from './components/delivery';
 
-//리액트부트스트랩사용
-//yarn add react-bootstrap bootstrap
-//index.js에 import 'bootstrap/dist/css/bootstrap.css';
-//부트스트랩을 사용하는 컴포넌트에 사용하는 리액트 부트스트랩을 연결
-//리액트아이콘
-//yarn add react-icons
+import Cake from './components/cake';
+import Bottom from './components/bottom';
+import Pie from './components/pie';
+import Macaron from './components/macaron';
+import Cookie from './components/cookie';
+import Deco from './components/deco';
+import Custom from './components/custom';
+import Kcea from './components/kcea';
+
 
 function App() {
 
@@ -35,43 +22,146 @@ function App() {
     <>
       <ItemProvider>
         <div className='header'>
-          <div className='header_in'>
-            <div className='logo'>
-              {/* <Link to="/"><img src={LogoImg} alt="" /></Link> */}
-              <Link to="/"><img src="https://shopping.namyangi.com/resources/images/common/logo.png" alt="" /></Link>
+          <div className='header_top'>
+            <div className='header_area'>
+              <a href='#'>
+                <img src='https://packagefactory.co.kr/web/upload/romi/top/top_in.png' alt='로그인'></img>
+                <img src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#'></img>
+              </a>
+              <a href='#'>
+                <img src='https://packagefactory.co.kr/web/upload/romi/top/top_join.png' alt='회원가입'></img>
+                <img src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#'></img>
+              </a>
+              <a href='#'>
+                <img src='https://packagefactory.co.kr/web/upload/romi/top/top_my.png' alt='마이쇼핑'></img>
+                <img src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#'></img>
+              </a>
+              <a href='#'>
+                <img src='https://packagefactory.co.kr/web/upload/romi/top/top_cart.png' alt='로그인'></img>
+                <img src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#'></img>
+              </a>
+              <a href='#'>
+                <img src='https://packagefactory.co.kr/web/upload/romi/top/top_order.png' alt='로그인'></img>
+              </a>
             </div>
-            <div className='nav'>
-              <div className='nav_in'>
-                <span>로그인</span>
-                <span>회원가입</span>
-                <span>남양</span>
-              </div>
-              <ul>
-                <li><Link to="/components/member" style={{ textDecoration: 'none', color: 'black' }}>프리미엄멤버쉽</Link></li>
-                <li><Link to="/components/product" style={{ textDecoration: 'none', color: 'black' }}>냉장제품</Link></li>
-                <li><Link to="/components/market" style={{ textDecoration: 'none', color: 'black' }}>시크릿마켓</Link></li>
-                <li><Link to="/components/brand" style={{ textDecoration: 'none', color: 'black' }}>브랜드관</Link></li>
-                <li><Link to="/components/pop" style={{ textDecoration: 'none', color: 'black' }}>기획전</Link></li>
-                <li><Link to="/components/event" style={{ textDecoration: 'none', color: 'black' }}>이벤트</Link></li>
-                <li><Link to="/components/delivery" style={{ textDecoration: 'none', color: 'black' }}>가정배달</Link></li>
-                <img width="24" height="24" src="https://img.icons8.com/android/24/search.png" alt="search" />
-                <img width="34" height="34" src="https://img.icons8.com/ios/50/shopping-bag--v1.png" alt="shopping-bag--v1" />
-                <img width="30" height="30" src="https://img.icons8.com/fluency-systems-regular/48/clock--v1.png" alt="clock--v1" />
-                <img width="38" height="38" src="https://img.icons8.com/pastel-glyph/64/person-male--v1.png" alt="person-male--v1" />
+            <div className='menu'>
+              <ul className='navigation'>
+                <li>
+                  <a href='#'>
+                    <img src='https://packagefactory.co.kr/web/upload/romi/top/menu_book.png'></img>
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                    <img src='https://packagefactory.co.kr/web/upload/romi/top/menu_cate.png'></img>
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                    <img src='https://packagefactory.co.kr/web/upload/romi/top/menu_com.png'></img>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
-        <div>
-          <Route path="/" exact={true} component={Main}></Route>
-          <Route path="/components/member" component={Member}></Route>
-          <Route path="/components/product" component={Product}></Route>
-          <Route path="/components/market" component={Market}></Route>
-          <Route path="/components/brand" component={Brand}></Route>
-          <Route path="/components/pop" component={Pop}></Route>
-          <Route path="/components/event" component={Event}></Route>
-          <Route path="/components/delivery" component={Delivery}></Route>
+        <div className='warp'>
+          <div className='header_body'>
+            <div className='header_b'>
+              <div className='logo'>
+                <a href='#'>
+                  <img src='https://packagefactory.co.kr/web/upload/romi/top/top_logo.png' alt='로고'></img>
+                </a>
+              </div>
+            </div>
+            <form id="form">
+              <div className='box'>
+                <img src='https://packagefactory.co.kr/web/upload/romi/top/top_sh_title.png' style={{ margin: '0px 10px 0px 10px' }}></img>
+                <img src='https://packagefactory.co.kr/web/upload/romi/top/top_sh_btn.png' style={{ float: 'right', width: '14px', textAlign: 'right', cursor: 'pointer', margin: '5px 10px 0px 10px', padding: '0px' }}></img>
+                <input class='put' type="text" name="name" />
+              </div>
+            </form>
+            <div className='text'>
+              <ul className='xans'>
+                <li className='cord'>
+                  <img src='https://packagefactory.co.kr/web/upload/adb09b73cdd5cb03e1032bb2334d11fa.png'></img>
+                  <img src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#'></img>
+                </li>
+                <li className='cord'>
+                  <img src='https://packagefactory.co.kr/web/upload/635655550472752fa8ac335d2ac2a017.png'></img>
+                  <img src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#'></img>
+                </li>
+                <li className='cord'>
+                  <img src='https://packagefactory.co.kr/web/upload/f26feab7a9909a46f823545b45ee1fa2.png'></img>
+                  <img src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#'></img>
+                </li>
+                <li className='cord'>
+                  <img src='https://packagefactory.co.kr/web/upload/adb09b73cdd5cb03e1032bb2334d11fa.png'></img>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+        <div className='title'>
+          <ul className='titlet'>
+            <li className='record'>
+              <Link to="/components/cake" style={{ textDecoration: 'none', color: 'black' }}>
+                <img src="https://packagefactory.co.kr/web/upload/category/7b18f0b301929437a81f66285c0d253d.jpg"></img>
+                <img className='i' src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#' style={{ padding: '0px' }}></img>
+              </Link>
+            </li>
+            <li className='record'>
+              <Link to="/components/bottom" style={{ textDecoration: 'none', color: 'black' }}>
+                <img src="https://packagefactory.co.kr/web/upload/category/shop1_26_menu_215954.jpg"></img>
+                <img className='i' src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#' style={{ padding: '0px' }}></img>
+              </Link>
+            </li>
+            <li className='record'>
+              <Link to="/components/pie" style={{ textDecoration: 'none', color: 'black' }}>
+                <img src="https://packagefactory.co.kr/web/upload/category/shop1_25_menu_452120.png"></img>
+                <img className='i' src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#' style={{ padding: '0px' }}></img>
+              </Link>
+            </li>
+            <li className='record'>
+              <Link to="/components/macaron" style={{ textDecoration: 'none', color: 'black' }}>
+                <img src="https://packagefactory.co.kr/web/upload/category/53694307a7dd899c45becf0e938ec8ef.jpg"></img>
+                <img className='i' src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#' style={{ padding: '0px' }}></img>
+              </Link>
+            </li>
+            <li className='record'>
+              <Link to="/components/cookie" style={{ textDecoration: 'none', color: 'black' }}>
+                <img src="https://packagefactory.co.kr/web/upload/category/083cd65b7fe360325a247209ce76a5a0.jpg"></img>
+                <img className='i' src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#' style={{ padding: '0px' }}></img>
+              </Link>
+            </li>
+            <li className='record'>
+              <Link to="/components/deco" style={{ textDecoration: 'none', color: 'black' }}>
+                <img src="https://packagefactory.co.kr/web/upload/category/shop1_54_menu_928926.jpg"></img>
+                <img className='i' src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#' style={{ padding: '0px' }}></img>
+              </Link>
+            </li>
+            <li className='record'>
+              <Link to="/components/custom" style={{ textDecoration: 'none', color: 'black' }}>
+                <img src="https://packagefactory.co.kr/web/upload/category/shop1_59_menu_453649.jpg"></img>
+                <img className='i' src='https://packagefactory.co.kr/web/upload/romi/top/top_bg.png' alt='#' style={{ padding: '0px' }}></img>
+              </Link>
+            </li>
+            <li className='record'>
+              <Link to="/components/kcea" style={{ textDecoration: 'none', color: 'black' }}>
+                <img src="https://packagefactory.co.kr/web/upload/category/shop1_88_menu_838073.jpg"></img>
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <Route path="/" exact={true} component={Main}></Route>
+        <Route path="/components/cake" component={Cake}></Route>
+        <Route path="/components/bottom" component={Bottom}></Route>
+        <Route path="/components/pie" component={Pie}></Route>
+        <Route path="/components/macaron" component={Macaron}></Route>
+        <Route path="/components/cookie" component={Cookie}></Route>
+        <Route path="/components/deco" component={Deco}></Route>
+        <Route path="/components/custom" component={Custom}></Route>
+        <Route path="/components/kcea" component={Kcea}></Route>
         <Footer />
       </ItemProvider>
       {/* 주석처리 */}
@@ -80,3 +170,5 @@ function App() {
 }
 
 export default App;
+
+
